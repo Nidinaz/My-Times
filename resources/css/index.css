@@ -2,6 +2,8 @@
 body {
    margin: 0px;
 }
+
+/* Header */
 .flex-container {
   font-family: Verdana;
   font-size: 14px;
@@ -24,6 +26,10 @@ body {
   color: MediumAquamarine;
 }
 
+.logo img {
+  margin-right:12px;
+}
+
 .nav span {
   display: inline-block;
   margin: 0px 10px;
@@ -33,6 +39,91 @@ body {
   color:black;
 }
 
-.logo img {
-  margin-right:12px;
+div {
+border: 1px solid black;
+  }
+
+/*MainContainer*/
+.main-flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flex-column1{
+  width: 630px;
+  margin-top: 20px;
+  margin-right: 20px;
+
+}
+
+.tuna {
+background-image: url("../images/img-story-main.png");
+display: flex;
+height: 300px;
+}
+
+.tuna p {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+
+}
+
+.tunatext p, .orca p, .burger p, .fbi p, .cats p, .cookie p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+ .earth h1,.cats h1, .memory h1 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+
+.earth {
+background-image: url("../images/img-story-2.png");
+display: flex;
+height:300px;
+align-items: center;
+align-content: center;
+}
+
+
+.memory{
+  background-image: url("../images/img-story-3.png");
+  height: 300px;
+  display:flex;
+  align-items: center;
+  align-content: center;
+}
+
+
+.flex-column2{
+  width: 300px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.cats h1 {
+  background-image: url("../images/img-story-1.png");
+  color: white;
+  height:300px;
+  align-items: center;
+  align-content: center;
+}
+
+.flex-column3{
+  width: 240px;
+  margin-top: 20px;
+  margin-right: 20px;
+
+}
+
+.cookie {
+  background-image: url("../images/img-news-bite.jpg");
 }
